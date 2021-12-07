@@ -1,0 +1,4 @@
+
+t = int(np.round(np.mean(input))-1)
+print(t)
+print(sum( [(lambda n:n*(n+1)/2)(np.abs(v-t)) for v in input]))
